@@ -1,0 +1,12 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Relationship of features between top-artists on Spotify"
+subtitle: |
+  A project by Carl A. Schmidt and Julius H. Radzikowski
+content : |
+
+button:
+  label : "Get Started"
+  link : "#first"
+image : "images/spotify.avif"
+
