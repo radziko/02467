@@ -1,0 +1,9 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Text Analysis"
+content: Here we will write something about the text analysis
+# button: 
+#   label: "Learn More"
+#   link: "#"
+image: "images/spotlight01.jpg"

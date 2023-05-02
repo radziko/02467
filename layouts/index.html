@@ -1,10 +1,9 @@
 {{ define "main" }}
-
 	{{ partial "banner" site.Data.banner }}
-	{{ partial "spotlight" site.Data.s1_data }}
+	{{partial "s0_data" .}}
 	{{ partial "spotlight" site.Data.s2_network }}
 	{{ partial "spotlight" site.Data.s3_genres }}
-	{{ partial "s4_tfidf" . }}
+	{{ partial "spotlight" site.Data.s4_genres_wordcloud  }}
 	{{ partial "graph" . }}
 	{{ partial "footer" .  }}
 
