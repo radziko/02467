@@ -1,0 +1,9 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Data"
+content: This is where we will write a lot of stuff about our data, and our pipeline. 
+button: 
+  label: "Learn More"
+  link: "#"
+image: "images/spotlight01.jpg"

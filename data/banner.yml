@@ -1,12 +1,12 @@
 ####################### Banner #########################
-style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Relationship of features between top-artists on Spotify"
+style: "style1 orient-right content-align-left image-position-keft fullscreen onload-image-fade-in onload-content-fade-left"
+title : "Relationship of features between artists on the Spotify top charts."
 subtitle: |
-  A project by Carl A. Schmidt and Julius H. Radzikowski
+  A project by Carl A. Schmidt and Julius H. Radzikowski for 02467 - Computational Social Science. 
 content : |
 
 button:
-  label : "Get Started"
+  label : "Jump into the data"
   link : "#first"
 image : "images/spotify.avif"
 

@@ -1,0 +1,9 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+id: "first"
+title : "Network"
+content: "This is where we will write a lot of stufffff about our network yes yes"
+button: 
+  label: "Learn More"
+  link: "#"
+image: "images/spotlight01.jpg"
