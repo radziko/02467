@@ -1,8 +1,26 @@
 ####################### Spotlight #########################
 style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
-id: "first"
-title : "Network"
-content: Here we will write something about how we chose 8 genres, and will focus on those for now
+id: "third"
+title : "Top Genres"
+content: |
+  First each artist has multiple genres, but is assigned one top genre, these includes everything from pop, rap, country to korean-ost, torch and bass. Let's focus on the 5 largest genres!
+  
+  <br>
+  <br>
+  
+  The rap and hip-hop genre are the genre with the most collaborations on average per artist. The average artist has about <strong>90</strong> collaborations in this genre.
+  On the contrary, the average artist has only <strong>7</strong> collaboration in the rock genre. 
+  Pop and country are close to the mean of <strong>40</strong> collaborations per artist.
+
+  When hearing a rap or hip-hop song, it is not uncommon to hear multiple artists on the same song, which is significantly less common in rock songs.
+  
+  <br>
+  <br>
+
+  Generally, there is a large difference between the genres in terms of the number of collaborations per artist. 
+
+
+
 # button: 
 #   label: "Learn More"
 #   link: "#"
