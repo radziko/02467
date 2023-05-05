@@ -5,9 +5,11 @@ title : "Network"
 content: | 
   By treating the artists as nodes and the amount of collaborations as edges with weights, it is possible to form a network of artists.
   <br> 
-  ...
+  The networks nodes are colored after their top genre. 
+  The <strong>modularity</strong> index of a network measures how well the groups (colors) of the networks are partitioning the network in terms of collaborations between artists. 
+  A modularity of <strong></strong>
   
-button: 
-  label: "Learn More"
-  link: "#"
+#button: 
+#  label: "Learn More"
+#  link: "#"
 image: "images/spotlight01.jpg"
