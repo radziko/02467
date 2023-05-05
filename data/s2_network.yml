@@ -1,5 +1,5 @@
 ####################### Spotlight #########################
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+style: "styleown2 orient-left content-align-left image-position-center onscroll-image-fade-in"
 id: "second"
 title : "Network"
 content: | 
@@ -7,9 +7,16 @@ content: |
   <br> 
   The networks nodes are colored after their top genre. 
   The <strong>modularity</strong> index of a network measures how well the groups (colors) of the networks are partitioning the network in terms of collaborations between artists. 
-  A modularity of <strong></strong>
+  The network contains <strong> 1147 </strong> nodes, and <strong> 7156</strong> edges.
+  The network has a modularity of <strong> 0.204</strong> for the original partioning.
+  This can be seen on the left-most network.
+
+  We found that this modularity was significantly different from a random, double-edge-swapped network.
+
+  Afterwards, we computed a new Louvain partitioning. This can be seen in the right-most graph. This is the best partitioning possible for the graph.
+  This achieved a modularity of <strong>0.560</strong>.
   
 #button: 
 #  label: "Learn More"
 #  link: "#"
-image: "images/spotlight01.jpg"
+image: "images/graph_both.png"

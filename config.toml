@@ -31,6 +31,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 ## Site Parameters
 ## -----------------------------------------------
 
+
 [Params]
 
 [Params.social]

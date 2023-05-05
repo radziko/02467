@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+	<meta name="generator" content="Hugo 0.92.2" /><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<title>Spotify Project</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">	
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+	
+	
+	
+	
+	
+	<link rel="stylesheet" href="./css/main.css">
+	
+	
+	
+	<noscript><link rel="stylesheet" href="./css/noscript.css" /></noscript>
+	
+
+	
+	<link rel="stylesheet" href="//localhost:1313/css/fontawesome-all.min.css">
+
+</head>
+
+
+	<body class="is-preload">
+
+		
+		<div id="wrapper" class="divided">
+	
+<section class="banner style1 orient-right content-align-left image-position-keft fullscreen onload-image-fade-in onload-content-fade-left">
+    <div class="content">
+        <h1>Relationship of features between artists on the Spotify top charts.</h1>
+        <p class="major">A project by Carl A. Schmidt and Julius H. Radzikowski for 02467 - Computational Social Science. 
+</p>
+        
+        <ul class="actions stacked">
+            <li><a href="#first" class="button primary large wide smooth-scroll-middle">Jump into the data</a></li>
+        </ul>
+    </div>
+    <div class="image">
+        <img src="images/spotify.avif" alt="Hugo Story" />
+    </div>
+</section>
+	<section class="wrapper style1 align-center">
+    <div class="inner">
+        <h2 class="center" id="first">Before we start</h2>
+        <p class="center">
+            The data is primarily collected from the spotify and genius apis.
+            It takes its fundament in a ranked list of songs which have spend the most time on the U.S. weekly charts in the period 2013-2023.
+            By taking the set of artists who made these songs, we can find the <strong>artists of the top charts</strong>. For this group of artists who have rocked the charts at least once, their features, genres and lyrics are collected. 
+
+            <br>
+            <br>
+            More can be seen below. 
+        </p>
+    </div>
+</section>
+    
+<section>
+    <div class="content">
+        <span class="image fit"><img src="images/DATA.png" alt="" /></span>
+    </div>
+</section>
+
+<section class="spotlight styleown orient-right content-align-left" id="second">
+    <div class="content">
+        <h3>Who loves a feature?</h3>
+        <p>The artists with the most features are all male. The features count collaborations going both ways, hence both being feature on songs and having features.
+            An artist who likes including other artists and being included in their songs and is <strong>Future</strong>, with impressive <strong>603</strong> collaborations with the top charts artists. 
+            It seems that all the artists are within the same genres, which is <strong>hip hop</strong> and <strong>rap</strong>. 
+            Maybe it is because these genres are more open to collaborations than other genres, or maybe it is because the top charts artists are more productive.
+            Relevant questions are: 
+            <ul>
+                <li>Are collaborations happening across genres?</li>
+                <li>What characterizes a certain genre with regards to collaborations and use of lyrics?</li>
+              </ul>  
+            <br>
+
+            Let's look further into this!
+            First each artist has multiple genres, but is assigned one top genre, these includes everything from pop, rap, country to korean-ost, torch and bass.
+
+            <br>
+
+            GØR BILLEDE VÆSENLIGT MINDRE - DET SKAL BARE VÆRE ET MINDRE AFSNIT
+        </p>
+    </div>
+    
+    <div class="image">
+        <img src="images/collaborators.png" alt="" />
+    </div>
+
+</section>
+	
+<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="second">
+    <div class="content">
+        <h2>Network</h2>
+        <p>By treating the artists as nodes and the amount of collaborations as edges with weights, it is possible to form a network of artists.
+<br> 
+The networks nodes are colored after their top genre. 
+The <strong>modularity</strong> index of a network measures how well the groups (colors) of the networks are partitioning the network in terms of collaborations between artists. 
+A modularity of <strong></strong>
+</p>
+        
+    </div>
+    <div class="image">
+        <img src="images/spotlight01.jpg" alt="" />
+    </div>
+</section>
+	
+<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="third">
+    <div class="content">
+        <h2>Top Genres</h2>
+        <p>Let's focus on the 5 largest genres!
+
+<br>
+<br>
+
+The rap and hip-hop genre are the genre with the most collaborations on average per artist. The average artist has about <strong>90</strong> collaborations in this genre.
+On the contrary, the average artist has only <strong>7</strong> collaboration in the rock genre. 
+Pop and country are close to the mean of <strong>40</strong> collaborations per artist.
+
+When hearing a rap or hip-hop song, it is not uncommon to hear multiple artists on the same song, which is significantly less common in rock songs.
+
+<br>
+<br>
+
+Generally, there is a large difference between the genres in terms of the number of collaborations per artist. 
+</p>
+        
+    </div>
+    <div class="image">
+        <img src="images/GENRES.png" alt="" />
+    </div>
+</section>
+	
+<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="first">
+    <div class="content">
+        <h2>Text Analysis</h2>
+        <p>Here we will write something about the text analysis</p>
+        
+    </div>
+    <div class="image">
+        <img src="images/spotlight01.jpg" alt="" />
+    </div>
+</section>
+	<head>
+    <style> body { margin: 0; } </style>
+  
+    <script src="//unpkg.com/3d-force-graph"></script>
+    
+  </head>
+  
+  <body>
+    <div id="3d-graph"></div>
+  
+    <script>
+      
+      const gData = '/js/graph_data.json';
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+            .jsonUrl(gData) 
+            .nodeLabel(node => `${node.id}: ${node.group}`)
+            .nodeAutoColorBy('group')
+            .linkOpacity(0.3);
+    </script>
+  </body>
+	
+<footer class="wrapper style1 align-center">
+    <div class="inner">
+        <ul class="icons">
+            <li><a target="_blank" href="https://github.com/radziko/CompSocSci" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
+            
+            
+            
+            
+        </ul>
+        <p>Theme: Hugo Story &copy; 2020 <a target="_blank" href="https://github.com/caressofsteel/">CaressOfSteel</a><span class="footerspacer icon fa-diamond"></span>
+            Ported from <a target="_blank" href="https://html5up.net/uploads/demos/story/">Story</a> by HTML5UP<span class="footerspacer icon fa-diamond"></span>
+</div>
+</footer>
+
+
+<script type="text/javascript" src="//localhost:1313/js/fontawesome-all.min.js"></script>
+	
+
+		
+		</div>
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<script src='./js/bundle.min.js'></script>
+
+
+
+	</body>
+</html>

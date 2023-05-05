@@ -1,5 +1,5 @@
 ####################### Spotlight #########################
-style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+style: "styleown orient-right content-align-left image-position-center onscroll-image-fade-in"
 id: "third"
 title : "Top Genres"
 content: |
