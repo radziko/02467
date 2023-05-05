@@ -15,6 +15,7 @@ content: |
 
   Afterwards, we computed a new Louvain partitioning. This can be seen in the right-most graph. This is the best partitioning possible for the graph.
   This achieved a modularity of <strong>0.560</strong>.
+  Since the Louvain partition has 262 groups and there are 101, it seems like there exists groups who are more likely to collaborate within the genres. Hence, the genres are not explaining everything in terms of collaborations, since these also happen across genres.
   
 #button: 
 #  label: "Learn More"
