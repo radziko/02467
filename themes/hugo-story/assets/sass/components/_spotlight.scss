@@ -231,7 +231,7 @@
 /* Spotlight (own) */
 
 .spotlight.styleown {
-	@include vendor('align-items', 'stretch');
+	@include vendor('align-items', 'center');
 	@include vendor('display', 'flex');
 	@include vendor('flex-direction', 'row');
 	@include vendor('justify-content', 'flex-end');
@@ -244,7 +244,7 @@
 		@include vendor('align-self', 'center');
 		@include vendor('flex-grow', '1');
 		@include vendor('flex-shrink', '1');
-		width: 65%;
+		width: 60%;
 		max-width: _size(inner);
 		margin: 0 auto;
 	}
@@ -252,19 +252,19 @@
 	.image {
 		@include vendor('flex-grow', '0');
 		@include vendor('flex-shrink', '0');
-		width: 35%;
-		min-width: 10rem;
+		width: 40%;
+		min-width: 25rem;
 		border-radius: 0;
-
+		background-color: white;
 		img {
 			@include vendor('object-fit', 'fill');
 			@include vendor('object-position', 'center');
 			display: block;
-			position: absolute;
+			position: relative;
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 100%;
+			height: auto;
 			border-radius: 0;
 		}
 	}
@@ -371,7 +371,7 @@
 }
 
 .spotlight.styleown2 {
-	@include vendor('align-items', 'stretch');
+	@include vendor('align-items', 'center');
 	@include vendor('display', 'flex');
 	@include vendor('flex-direction', 'row');
 	@include vendor('justify-content', 'flex-end');
@@ -384,7 +384,7 @@
 		@include vendor('align-self', 'center');
 		@include vendor('flex-grow', '1');
 		@include vendor('flex-shrink', '1');
-		width: 40%;
+		width: 35%;
 		max-width: _size(inner);
 		margin: 0 auto;
 	}
@@ -392,19 +392,19 @@
 	.image {
 		@include vendor('flex-grow', '0');
 		@include vendor('flex-shrink', '0');
-		width: 60%;
-		min-width: 10rem;
+		width: 65%;
+		min-width: 25rem;
 		border-radius: 0;
-
+		background-color: white;
 		img {
 			@include vendor('object-fit', 'fill');
 			@include vendor('object-position', 'center');
 			display: block;
-			position: absolute;
+			position: relative;
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 100%;
+			height: auto;
 			border-radius: 0;
 		}
 	}
